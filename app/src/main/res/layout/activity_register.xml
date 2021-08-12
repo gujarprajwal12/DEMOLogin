@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <TextView
+    android:id="@+id/textInputLayoutName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp">
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/textInputEditTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="@android:color/white" >
+
+    </EditText>
+
+    <EditText
+
+        android:id="@+id/textInputEditTextName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="@android:color/white">
+    </EditText>
+
+    <TextView
+        android:id="@+id/textInputLayoutEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/textInputEditTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_email"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="@android:color/white">
+
+    </EditText>
+
+    <TextView
+    android:id="@+id/textInputLayoutPassword"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/textInputEditTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textColor="@android:color/white" >
+
+    </EditText>
+
+
+    <TextView
+        android:id="@+id/textInputLayoutConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/textInputEditTextConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_confirm_password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textColor="@android:color/white" />
+
+
+    <Button
+        android:id="@+id/appCompatButtonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorTextHint"
+        android:text="@string/text_register" />
+
+
+   <EditText
+    android:id="@+id/appCompatTextViewLoginLink"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:gravity="center"
+    android:text="Already a member? Login"
+    android:textSize="16dp" />
+
+
+   </LinearLayout>
